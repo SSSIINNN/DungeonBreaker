@@ -1,0 +1,42 @@
+# Reproducible Rojo build outputs (keep source models/assets trackable)
+/DungeonBreaker.rbxlx
+/DungeonBreaker.rbxl
+/build/
+/dist/
+/sourcemap.json
+
+# Roblox Studio lock files
+*.rbxlx.lock
+*.rbxl.lock
+*.rbxmx.lock
+*.rbxm.lock
+
+# Local caches, logs, temporary files and editor state
+/.cache/
+/logs/
+/tmp/
+/.agents/
+/.codex/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local secrets and credentials (never commit real values)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.git-credentials
+.ROBLOSECURITY
+credentials.json
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
